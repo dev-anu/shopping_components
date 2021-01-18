@@ -12,7 +12,8 @@ const Card = ({name,price ,src ,color1,color2}) => {
         <div className="contentBx">
             <h3>{name}</h3>
             <h2 className="price">{price}.<small>99</small></h2>
-            <a hred="#" className="buy">Buy Now</a>
+            <a hred="#" className="buy">Add to cart</a>
+            <a href="#" className="buy">Buy now</a>
         </div>
     </div>
     )

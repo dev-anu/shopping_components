@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 
-import Card from './Components/Card/Card';
-import CardDetails from './Components/Card/CardDetails';
+import SingleProduct from "./Pages/SingleProduct";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-     {/* <Card /> */}
-     <CardDetails />
-    </div>
+    <>
+    <SingleProduct />
+    </>
   );
 }
 
